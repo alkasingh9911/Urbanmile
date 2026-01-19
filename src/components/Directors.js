@@ -1,4 +1,6 @@
 import React from 'react';
+import abhimanyuImage from '../assets/images/abhimanyu-singh.png';
+import nikhilImage from '../assets/images/nikhil-rathor.png';
 
 const Directors = () => {
   const directors = [
@@ -9,7 +11,7 @@ const Directors = () => {
       specialization: "Extensive experience in civil engineering and Interior works with a strong background in both international and domestic projects.",
       email: "Abhimanyu.singh@urbanmile.in",
       phone: "9873009679",
-      image: "/images/abhimanyu-singh.png"
+      image: abhimanyuImage
     },
     {
       name: "Nikhil Rathor",
@@ -18,7 +20,7 @@ const Directors = () => {
       specialization: "Expertise in construction, interior works, MEP (Mechanical, Electrical, and Plumbing) execution, and project management Procurement. Successfully executed projects across various sectors, including hotel buildings, IT buildings, residential buildings, and educational buildings.",
       email: "Nikhil.rathor@urbanmile.in",
       phone: "9818711131 & 9818267004",
-      image: "/images/nikhil-rathor.png"
+      image: nikhilImage
     }
   ];
 
